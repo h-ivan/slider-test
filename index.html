@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" rel="stylesheet" type="text/css"/>
+    <link href="styles.css" rel="stylesheet">
+    <title>Slider</title>
+</head>
+<body>
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide">
+            <div class="slide-content">
+                <div class="slide-left">
+                    <a href="#">
+                        <img alt="msn icon" height="36" src="./img/msn-icon.svg" width="66">
+                    </a>
+                    <a href="#">
+                        <img alt="instagram icon" height="29" src="./img/ig-icon.svg" width="29">
+                    </a>
+                </div>
+                <div class="slide-right">
+                    <p class="slider-paragraph">
+                        ”Microsoft Start helps to expand my page visit rate, and that's a big boost and reward for all
+                        the
+                        hard
+                        work I put into my blog. It encourages me to do better and improve all my content, every day in
+                        every
+                        way, to be the best blogger I can be! Of course, the extra revenue I receive through the program
+                        is
+                        very
+                        welcome, too.I recommend the Microsoft Start program for any influencer who wants to prosper and
+                        improve.”
+                    </p>
+                    <span class="slide-name">
+                        Hallie Swanson
+                    </span>
+                </div>
+                <img alt="slide avatar" class="slide-avatar" src="./img/slide-img.png"/>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-content">
+                <div class="slide-left">
+                    <a href="#">
+                        <img alt="msn icon" height="36" src="./img/msn-icon.svg" width="66">
+                    </a>
+                    <a href="#">
+                        <img alt="instagram icon" height="29" src="./img/ig-icon.svg" width="29">
+                    </a>
+                </div>
+                <div class="slide-right">
+                    <p class="slider-paragraph">
+                        ”Microsoft Start helps to expand my page visit rate, and that's a big boost and reward for all
+                        the
+                        hard
+                        work I put into my blog. It encourages me to do better and improve all my content, every day in
+                        every
+                        way, to be the best blogger I can be! Of course, the extra revenue I receive through the program
+                        is
+                        very
+                        welcome, too.I recommend the Microsoft Start program for any influencer who wants to prosper and
+                        improve.”
+                    </p>
+                    <span class="slide-name">
+                        Hallie Swanson
+                    </span>
+                </div>
+                <img alt="slide background" class="slide-avatar" src="./img/slide-img.png"/>
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="slide-content">
+                <div class="slide-left">
+                    <a href="#">
+                        <img alt="msn icon" height="36" src="./img/msn-icon.svg" width="66">
+                    </a>
+                    <a href="#">
+                        <img alt="instagram icon" height="29" src="./img/ig-icon.svg" width="29">
+                    </a>
+                </div>
+                <div class="slide-right">
+                    <p class="slider-paragraph">
+                        ”Microsoft Start helps to expand my page visit rate, and that's a big boost and reward for all
+                        the
+                        hard
+                        work I put into my blog. It encourages me to do better and improve all my content, every day in
+                        every
+                        way, to be the best blogger I can be! Of course, the extra revenue I receive through the program
+                        is
+                        very
+                        welcome, too.I recommend the Microsoft Start program for any influencer who wants to prosper and
+                        improve.”
+                    </p>
+                    <span class="slide-name">
+                        Hallie Swanson
+                    </span>
+                </div>
+                <img alt="slide avatar" class="slide-avatar" src="./img/slide-img.png"/>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<script crossorigin="anonymous"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        referrerpolicy="no-referrer" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js" type="text/javascript"></script>
+</body>
+
+<script>
+    $(document).ready(function () {
+        $('.slider').slick({
+            infinite: true,
+            dots: true,
+            arrows: false,
+            centerMode: true,
+            centerPadding: '140px',
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        centerPadding: '0',
+                    }
+                }
+
+            ]
+        });
+    });
+
+</script>
+
+
+</html>
